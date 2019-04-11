@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<!-- IE commpatily meta -->
+<meta http-equiv="X-UA-Compatible" cotent="IE=edg">
+<!-- IE commpatily meta -->
+<meta name="viewport" content="width=device-width, initail-scale=1">
+<!-- IE commpatily meta -->
+<title>تسجيل الدخول </title>
+
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<link rel="stylesheet" href="css/bootstraprtl.css"/>
+<link rel="stylesheet"  href="css/style.css"/>
+<link rel="stylesheet"  href="ccs/style2.css"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- IE commpatily meta -->
+
+<script src="js/html5shiv.min.js"></script>
+<script src="js/respond.min.js"></script>
+<!-- IE commpatily meta -->
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+    <!-- strat nav bar -->
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a href="moshorate.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">مشروعات عقارية<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="moshorate.html">مشروعات عقارية</a></li>
+                    <li><a href="arady.html">اراضي</a></li>
+                </ul>
+              </li> 
+            
+           
+          
+          <li><a href="alwhadtealmodafa.html">اخر الواحدات المضافة</a></li>
+          
+          <li><a href="egar.html"> ايجار</a></li>
+             
+          <li class="dropdown">
+              <a href="wahdatsakena.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">وحدات سكنية<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="wahdatsakena.html">,وحدات سكنية</a></li>
+                <li><a href="department.html">الشقق</a></li>
+                <li><a href="douplex.html">دوبلكس</a></li>
+                <li><a href="rofe.html">روف</a></li>  
+                <li><a href="shaleh.html">شالية</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="villa.html">فيلا</a></li>
+              </ul>
+            </li> 
+          <li class="active"><a href="index.html">الرئيسة<span class="sr-only">(current)</span></a></li>
+  
+        </ul>
+        
+        <ul class="nav navbar-nav navbar-left">
+            <li><a href="tassggel.html"><span class="glyphicon glyphicon-user"></span>تسجيل</a></li>
+                  
+              <li><a href="tasgelaldkol.html"><span class="glyphicon glyphicon-log-in"></span>تسجيل دخول</a></li> 
+                </ul>
+              </li>
+             
+        
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  
+  <!-- End nav bar --> 
+  <div class="container">
+  <form action="/action_page.php" style="border:1px solid #ccc">
+    <div class="container">
+      <h1>تسجيل الدخول</h1>
+      <p>من فضلك ادخل الايميل </p>
+      <hr>
+
+      <label for="email"><b></b></label>
+      <input type="text" placeholder="ادخل الايميل" name="email" required>
+
+      <label for="psw"><b>كلمة السر</b></label>
+      <input type="password" placeholder="ادخل كلمة السر" name="psw" required>
+
+      <label for="psw-repeat"><b>اعد كتابة كلمة السر</b></label>
+      <input type="password" placeholder="اعد كتابة كلمة السر" name="psw-repeat" required>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> تذكرني
+</label>
+
+      <div class="clearfix">
+        <button type="button" class="cancelbtn">الغاء</button>
+        <button type="submit" class="signupbtn">تسجيل الدخول</button>
+      </div>
+    </div>
+  </form>
+</div>
+<!-- enddsearchbar -->
+<!-- enddsearchbar -->
+<section class="footer">
+    <div class="container text-center">
+    <div class="row">
+        <div class="col-lg-3">
+            <a href="#" class="fb btn">
+              <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+             </a>
+            <a href="#" class="twitter btn">
+              <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+            </a>
+            <a href="#" class="google btn"><i class="fa fa-google fa-fw"></i> Login with Google+
+    
+            </a>
+          </div>
+    <div class="col-lg-8">
+    <h1>جميع الحقوق محفوظة للمصرية للعقارات</h1>
+    </div>
+    
+    </div>
+    </div>
+    </section>
+<!-- end footer -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body{
+  overflow-x: hidden;
+  }
+  body {font-family: Arial, Helvetica, sans-serif;}
+  * {box-sizing: border-box;}
+  
+  .input-container {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      width: 100%;
+      margin-bottom: 15px;
+  }
+  
+  .icon {
+      padding: 10px;
+      background: dodgerblue;
+      color: white;
+      min-width: 50px;
+      text-align: center;
+  }
+  
+  .input-field {
+      width: 100%;
+      padding: 10px;
+      outline: none;
+  }
+  
+  .input-field:focus {
+      border: 2px solid dodgerblue;
+  }
+  
+  /* Set a style for the submit button */
+   #fun .form-group{
+    margin-bottom: 20px;
+   }
+   #fun .form-group label {
+      color: #000;
+  }
+  #fun label {
+      float: right;
+      margin: 0px;
+  }
+  #fun .checkbox, .login-form .radio {
+      float: right;
+      margin: 0 30px;
+  
+  }
+  #fun .checkbox, .radio {
+      position: relative;
+      display: block;
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  #fun .form-group .checkbox input {
+      right: -25px;
+      font-weight: normal;
+  }
+  #fun .form-group .checkbox input {
+      position: absolute;
+      right: -25px;
+  }
+  #fun .checkbox label, .radio label {
+  
+      font-weight: 400;
+      cursor: pointer;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+      background-color: dodgerblue;
+      color: white;
+      padding: 15px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+      font-size: 25px;
+  }
+  
+  .btn:hover {
+      opacity: 1;
+  }
+  h1{
+  text-align: center;
+  }
+  
+  .contact-us .field  {
+  
+  min-height: 500px;
+  color:#DDD;
+  padding-top:10px;
+  padding-bottom:40px;
+  
+  }
+  .contact-us{
+  margin-top: -6px;
+  }
+  .contact-us .field h1{
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    color: #fff;
+    padding: 5px 5px ;
+    text-shadow: none;
+    float: left;
+      margin: 15px 0 0;
+      clear: both;
+      display: block;
+    margin-left: 15px;
+  }
+  .footer{
+    background: #333;
+    color:#AAA;
+    padding-top:20px;
+    padding-bottom: 20px;
+  }
+  .footer a{color:#AAA};
+  .footer a:hover{color:#FFF};

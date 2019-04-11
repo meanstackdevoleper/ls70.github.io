@@ -1,0 +1,38 @@
+body{
+direction: rtl;
+}
+h1{
+direction: rtl;
+}
+h2{
+direction: rtl;
+}
+p{
+direction: rtl;
+}
+
+li{
+direction: rtl;
+}
+.icon{
+  direction: rtl;
+}
+input{
+direction: rtl;
+}
+dropdown-menu{
+direction: rtl;
+}
+nav{
+direction: rtl;
+}
+navbar-toggle collapsed{
+  direction: rtl;
+}
+label{
+
+direction: rtl;
+}
+b{
+direction: rtl;
+}

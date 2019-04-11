@@ -1,0 +1,197 @@
+
+h1{
+    text-align:center;
+    font-weight:bold;
+    font-size:30px;
+    }
+    /* End tetesmonias elakart */
+    * {
+      box-sizing: border-box;
+    }
+    .contact-us .field  {
+    
+    min-height:200px;
+    color:#DDD;
+    padding-top:14px;
+    padding-bottom:40px;
+    
+    }
+    .contact-us{
+    margin-top: 40px;
+    
+    }
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      font-weight:bold;
+    }
+    .block {
+        margin: 0;
+        padding: 30px 0;
+    }
+    .listing-wrapper .thumbnail-list:first-child {
+        margin-top: 0;
+    }
+    .thumbnail.special-thumbnail {
+        border: 2px solid #4CAF50;
+    }
+    .thumbnail {
+        overflow: hidden;
+          float: right;
+    }
+    .thumbnail.thumbnail-list .caption {
+        padding: 0;
+    }
+    .thumbnail.thumbnail-list .caption-title, .thumbnail.thumbnail-list .caption-text, .thumbnail.thumbnail-list .p-price {
+        padding: 10px 0;
+        border-bottom: 1px solid #e9e9e9;
+    }
+    .thumbnail.thumbnail-list .caption-title, .thumbnail.thumbnail-list .buttons, .thumbnail.thumbnail-list .caption-text, .thumbnail.thumbnail-list .p-price {
+        text-align: right;
+        display: block;
+        direction: rtl;
+    }
+    .thumbnail .caption-title, .thumbnail .buttons, .thumbnail .caption-text {
+        float: right;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .thumbnail.thumbnail-list .p-price {
+        float:right;
+        width: 100%;
+    }
+    .thumbnail-list {
+        width: 100%;
+        float: right;
+        margin: 15px 0;
+        padding: 0;
+    }
+    .thumbnail.thumbnail-list .caption-title, .thumbnail.thumbnail-list .buttons, .thumbnail.thumbnail-list .caption-text, .thumbnail.thumbnail-list .p-price {
+        text-align: right;
+        display: block;
+        direction: rtl;
+    }
+    .thumbnail.thumbnail-list .caption-title, .thumbnail.thumbnail-list .buttons, .thumbnail.thumbnail-list .caption-text, .thumbnail.thumbnail-list .p-price {
+        text-align: right;
+        display: block;
+        direction: rtl;
+    }
+    .thumbnail {
+        padding: 4px;
+        line-height: 1.42857143;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        -webkit-transition: border .2s ease-in-out;
+        -o-transition: border .2s ease-in-out;
+        transition: border .2s ease-in-out;
+    }
+    .media-object, .thumbnail {
+        display: block;
+    }
+    .thumbnail .label-badge {
+        height: 67px;
+    
+    
+        right:-43px;
+        line-height: 2.2em;
+        top: -26px;
+        width: 120px;
+        z-index: 12;
+    }
+    .thumbnail.thumbnail-list .caption-title, .thumbnail.thumbnail-list .buttons, .thumbnail.thumbnail-list .caption-text, .thumbnail.thumbnail-list .p-price {
+        text-align: right;
+        display: block;
+        direction: rtl;
+    }
+    .thumbnail.thumbnail-list .buttons {
+        margin: 10px 0;
+    }
+    .thumbnail .caption-title, .thumbnail .buttons, .thumbnail .caption-text {
+        margin: 0 0 15px;
+        max-height: 45px;
+        overflow: hidden;
+        padding: 0;
+    }
+    .btn-theme {
+        padding: 5px 15px;
+        color: #fff;
+        background: #000;
+        border: 2px solid #000;
+        font-size: 12px;
+    }
+    .label-badge.banner-special {
+        background-color: #8BC34A;
+        color: #000;
+    }
+    .thumbnail .label-badge .text {
+        width: 120px;
+    }
+    .label-badge .text {
+        right: -10px;
+        top: 30px;
+        position: absolute;
+        color: #000;
+        font-size: 18px;
+    }
+    .media {
+        margin-top: 0;
+    
+    }
+    .media {
+        position: relative;
+    }
+    .media-link {
+        padding: 0;
+        display: block;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+    .icon-view {
+        width: 42px;
+        height: 42px;
+        padding: 5px;
+        border: 2px solid rgb(68, 152, 71);
+    }
+    .media-link .icon-view {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        display: inline-block;
+        margin: auto;
+        opacity: 0;
+        -webkit-animation: fadeOut .4s;
+        -moz-animation: fadeOut .4s;
+        -ms-animation: fadeOut .4s;
+        -o-animation: fadeOut .4s;
+        animation: fadeOut .4s;
+    }
+    .label-badge {
+        font-size: 0.8125em;
+        letter-spacing: 1px;
+        position: absolute;
+        text-align: center;
+        text-transform: uppercase;
+        transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+    .img-listing-background {
+        width: 100%;
+        height: 250px;
+        display: block;
+        background-position: right ;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .col-sm-4{
+    float:right;
+    }
